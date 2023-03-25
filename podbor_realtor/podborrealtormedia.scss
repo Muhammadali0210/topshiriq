@@ -1,0 +1,108 @@
+
+
+@media only screen and (max-width: 1200px){
+    .section{
+        width: 100%;
+        .content{
+            width: 90%;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1020px){
+    .help-realtor-wrap{
+        flex-direction: column;
+        // align-items: center;
+    }
+
+    .title2-open{
+        display: block;
+    }
+
+    .title1-open{
+        display: none;
+    }
+
+    .advice-wrap{
+        flex-direction: column;
+    }
+
+    .baholash-wrapper{
+        .container1{
+            display: none;
+        }
+
+        .container2{
+            flex-direction: column;
+            justify-content: start; 
+            height: auto;
+        }
+    }
+
+    .works-wrap{
+        flex-direction: column;
+        margin-top: 20px;
+        .works-item{
+            margin: 40px 0;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 992px) {
+
+    .section{
+        .content{
+            width: 80%;
+        }
+    }
+    .header-wrapper{
+        display: block;
+    }
+
+    body{
+
+        .header-btn{
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header-wrapper{
+        background-size: 152px 214px,168px 204px;
+        padding-bottom: 150px;
+    }
+
+    .baholash-btn-wrapper{
+        gap: 20px;
+        .header-btn{
+            display: flex;
+            transform: translate(0);
+            left: auto;
+            top: auto;
+        }
+    }
+
+    .works-wrap{
+        .works-item{
+            .works-number{
+                left: -20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .baholash-btn-wrapper{
+        flex-direction: column;
+        gap: 20px;
+        .header-btn{
+            display: flex;
+            transform: translate(0);
+            left: auto;
+            top: auto;
+        }
+    }
+}

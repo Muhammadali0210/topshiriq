@@ -1,0 +1,1353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arenda</title>
+    <link rel="stylesheet" href="../style.css">
+    <!-- # -->
+    <link rel="stylesheet" href="./arenda.css">
+    <link rel="stylesheet" href="../mediya.css">
+    <link rel="stylesheet" href="./media.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;600;700&family=Bebas+Neue&family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@400;700&family=Rubik:wght@400;700&family=Staatliches&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- <br><br><br><br><br>
+    <h1>header content</h1>
+    <br><br><br><br><br><br> -->
+
+    <div class="mobilne-section">
+        <div class="section-content">
+            <form action="../result_arenda/result.html" method="POST" enctype="multipart/form-data">
+                <div class="type-btn-wrap">
+                    <div class="type-btn1 active">Купить</div>
+                    <div class="type-btn2">Снять</div>
+                    <a href="#">
+                        <div class="type-btn">Оценить</div>
+                    </a>
+                    <div class="type-btn-line"></div>
+                </div>
+                <div class="calculator-wrapper">
+                    <div class="kupit-wrap active">
+                        <select name="city" id="1" class="select">
+                            <option value="an" class="option">and</option>
+                            <option value="nam">far</option>
+                            <option value="afr">nam</option>
+                        </select>
+
+                        <div class="btn-wrap3">
+                            <div class="button btn1 active" name="btn">Все</div>
+                            <div class="button btn2">Новостройка</div>
+                            <div class="button btn3">Вторичка</div>
+                        </div>
+
+                        <div class="all-forms">
+                            <div class="text-w">
+                                <div class="title">Скоро в продаже</div>
+                                <div class="sub-title">Продажи начнутся в ближайшие месяцы</div>
+                            </div>
+                            <div class="input-block">
+                                <input type="checkbox">
+                            </div>
+                        </div>
+
+                        <div class="hidden-wrap">
+                            <div class="sub-title">Количество комнат</div>
+                            <div class="buttons-wrap">
+                                <!-- <input type="checkbox" name="btn-6" value="salom" class="chek_btn"> -->
+                                <div class="button active">1
+                                    <input type="checkbox" name="btn-6" value="salom" class="chek_btn">
+                                </div>
+                                <div class="button ">2
+                                    <input type="checkbox" name="btn-6" value="salom" class="chek_btn">
+                                </div>
+                                <div class="button">3
+                                    <input type="checkbox" name="btn-6" value="salom" class="chek_btn">
+                                </div>
+                                <div class="button">4
+                                    <input type="checkbox" name="btn-6" value="salom" class="chek_btn">
+                                </div>
+                                <div class="button">5
+                                    <input type="checkbox" name="btn-6" value="salom" class="chek_btn">
+                                </div>
+                                <div class="button">6+
+                                    <input type="checkbox" name="btn-6" value="salom" class="chek_btn">
+                                </div>
+                            </div>
+
+                            <div class="to-button-wrap">
+                                <div class="button active">Студия
+                                    <input type="checkbox" name="btn-6" value="salom" class="chek_btn">
+                                </div>
+                                <div class="button">Свобод. планировка
+                                    <input type="checkbox" name="btn-6" value="salom" class="chek_btn">
+                                </div>
+                            </div>
+
+                            <div class="sub-title">Цена</div>
+                            <div class="input-wrap">
+                                <input type="text" class="input" placeholder="ОТ">
+                                <input type="text" class="input" placeholder="ДО">
+                                <div class="type">₽</div>
+                            </div>
+
+                            <div class="btn-remove-wrap">
+                                <div class="button active">За всё</div>
+                                <div class="button">За м²</div>
+                            </div>
+
+                            <div class="manzil">
+                                Где: <span style="margin-left: 10px;" class="btn-manzil">Москва</span>
+                            </div>
+
+                            <div class="manzil">
+                                Указать:
+                                <span style="margin-left: 10px;" class="btn-manzil metro">Москва</span>
+                                <span style="margin-left: 10px;" class="btn-manzil mck">МЦК</span>
+                                <span style="margin-left: 10px;" class="btn-manzil rayon">Район</span>
+                            </div>
+
+                            <div class="w-input">
+                                <input type="text" class="input"
+                                    placeholder="Город, адрес, метро, район, ж/д, шоссе или ЖК">
+                            </div>
+
+                            <div class="chec-wrap">
+                                <input type="checkbox" class="ckeckbox"> От собственника
+                            </div>
+
+                            <br>
+                            <div class="new-open-btn-wrap">
+                                <div class="text">Расширенный поиск</div>
+                                <div class="open-btn">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="snyat-wrap">
+                        <div class="btn-remove-wrap">
+                            <div class="button active">За всё</div>
+                            <div class="button">За м²</div>
+                        </div>
+                        <br> 
+                        <select name="city" id="1" class="select">
+                            <option value="an" class="option">and</option>
+                            <option value="nam">far</option>
+                            <option value="afr">nam</option>
+                        </select>
+
+                        <div class="sub-title">Цена</div>
+                        <div class="input-wrap">
+                            <input type="text" class="input" placeholder="ОТ">
+                            <input type="text" class="input" placeholder="ДО">
+                            <div class="type">₽</div>
+                        </div>
+                        <div class="sub-title">Цена</div>
+                        <div class="input-wrap">
+                            <input type="text" class="input" placeholder="ОТ">
+                            <input type="text" class="input" placeholder="ДО">
+                            <div class="type">₽</div>
+                        </div>
+
+
+
+                        <div class="manzil">
+                            Где: <span style="margin-left: 10px;" class="btn-manzil">Москва</span>
+                        </div>
+
+                        <div class="manzil">
+                            Указать:
+                            <span style="margin-left: 10px;" class="btn-manzil metro">Москва</span>
+                            <span style="margin-left: 10px;" class="btn-manzil mck">МЦК</span>
+                            <span style="margin-left: 10px;" class="btn-manzil rayon">Район</span>
+                        </div>
+                        <div class="w-input">
+                            <input type="text" class="input"
+                                placeholder="Город, адрес, метро, район, ж/д, шоссе или ЖК">
+                        </div>
+
+                        <div class="chec-wrap">
+                            <input type="checkbox" class="ckeckbox"> От собственника
+                        </div>
+
+                        <br>
+                        <div class="new-open-btn-wrap">
+                            <div class="text">Расширенный поиск</div>
+                            <div class="open-btn">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="kalc2-wrapoer">
+                    <h4>Об объекте</h4>
+                    <br>
+                    <div class="sub-title">Срок аренды</div>
+
+                    <div class="button-content">
+                        <div class="button">От года</div>
+                        <div class="button">Несколько месяцев</div>
+                    </div>
+
+                    <div class="sub-title">Общая площадь</div>
+                    <div class="input-wrap">
+                        <input type="text" class="input" placeholder="ОТ">
+                        <input type="text" class="input" placeholder="ДО">
+                        <div class="type">м²</div>
+                    </div>
+
+                    <div class="sub-title">Общая площадь</div>
+                    <div class="input-wrap">
+                        <input type="text" class="input" placeholder="ОТ">
+                        <input type="text" class="input" placeholder="ДО">
+                        <div class="type">м²</div>
+                    </div>
+
+                    <div class="sub-title">Общая площадь</div>
+                    <div class="input-wrap">
+                        <input type="text" class="input" placeholder="ОТ">
+                        <input type="text" class="input" placeholder="ДО">
+                        <div class="type">м²</div>
+                    </div>
+
+                    <div class="line"></div>
+                    <div class="btn-remove-wrap">
+                        <div class="button active">За всё</div>
+                        <div class="button">За м²</div>
+                    </div>
+
+                    <div class="line"></div>
+                    <div class="sub-title">Общая площадь</div>
+                    <select name="city" id="1" class="select">
+                        <option value="an" class="option">and</option>
+                        <option value="nam">far</option>
+                        <option value="afr">nam</option>
+                    </select>
+
+                    <div class="line"></div>
+                    <div class="sub-title">Общая площадь</div>
+                    <select name="city" id="1" class="select">
+                        <option value="an" class="option">and</option>
+                        <option value="nam">far</option>
+                        <option value="afr">nam</option>
+                    </select>
+
+                    <div class="line"></div>
+                    <div class="btn-remove-wrap">
+                        <div class="button active">За всё</div>
+                        <div class="button">За м²</div>
+                    </div>
+
+                    <div class="chec-wrap">
+                        <input type="checkbox" class="ckeckbox"> От собственника
+                    </div>
+
+                    <div class="line"></div>
+                    <div class="sub-title">Общая площадь</div>
+                    <select name="city" id="1" class="select">
+                        <option value="an" class="option">and</option>
+                        <option value="nam">far</option>
+                        <option value="afr">nam</option>
+                    </select>
+
+                    <div class="line"></div>
+                    <div class="sub-title">Общая площадь</div>
+                    <select name="city" id="1" class="select">
+                        <option value="an" class="option">and</option>
+                        <option value="nam">far</option>
+                        <option value="afr">nam</option>
+                    </select>
+
+                    <div class="line"></div>
+                    <div class="btn-remove-wrap">
+                        <div class="button active">За всё</div>
+                        <div class="button">За м²</div>
+                    </div>
+
+                    <br>
+                    <div class="line"></div>
+                    <div class="sub-title">Общая площадь</div>
+                    <select name="city" id="1" class="select">
+                        <option value="an" class="option">and</option>
+                        <option value="nam">far</option>
+                        <option value="afr">nam</option>
+                    </select>
+
+                    <div class="chec-wrap">
+                        <input type="checkbox" class="ckeckbox"> От собственника
+                    </div>
+
+                    <div class="chec-wrap">
+                        <input type="checkbox" class="ckeckbox"> От собственника
+                    </div>
+                    <br>
+
+                    <div class="line"></div>
+                    <div class="sub-title">Общая площадь</div>
+                    <div class="input-wrap">
+                        <input type="text" class="input" placeholder="ОТ" style="width: 50%;">
+                        <input type="text" class="input" placeholder="ДО" style="width: 50%;">
+                    </div>
+
+                    <br>
+                    <div class="button-content">
+                        <div class="button">Не первый</div>
+                        <div class="button">Не последний</div>
+                        <br><br><br>
+                        <div class="button">Только последний</div>
+                    </div>
+
+                    <div class="sub-title">Общая площадь</div>
+                    <div class="input-wrap">
+                        <input type="text" class="input" placeholder="ОТ" style="width: 50%;">
+                        <input type="text" class="input" placeholder="ДО" style="width: 50%;">
+                    </div>
+                </div>
+
+                <div class="kalc2-wrapoer">
+                    <h4>Что нужно в квартире</h4>
+                    <br>
+
+                    <div class="btn-remove-wrap">
+                        <div class="button active">За всё</div>
+                        <div class="button">За м²</div>
+                    </div>
+
+                    <div class="chec-wrap">
+                        <input type="checkbox" class="ckeckbox"> От собственника
+                    </div>
+                    <div class="chec-wrap">
+                        <input type="checkbox" class="ckeckbox"> От собственника
+                    </div>
+                    <div class="chec-wrap">
+                        <input type="checkbox" class="ckeckbox"> От собственника
+                    </div>
+                    <div class="chec-wrap">
+                        <input type="checkbox" class="ckeckbox"> От собственника
+                    </div>
+                    <div class="chec-wrap">
+                        <input type="checkbox" class="ckeckbox"> От собственника
+                    </div>
+
+                    <br>
+                    <div class="line"></div>
+
+                    <div class="chec-wrap">
+                        <input type="checkbox" class="ckeckbox"> От собственника
+                    </div>
+                    <div class="chec-wrap">
+                        <input type="checkbox" class="ckeckbox"> От собственника
+                    </div>
+
+                </div>
+
+                <div class="kalc2-wrapoer">
+                    <div class="sub-title">Тип дома</div>
+                    <select name="city" id="1" class="select">
+                        <option value="an" class="option">and</option>
+                        <option value="nam">far</option>
+                        <option value="afr">nam</option>
+                    </select>
+
+                    <div class="sub-title">Общая площадь</div>
+                    <div class="input-wrap">
+                        <input type="text" class="input" placeholder="ОТ" style="width: 50%;">
+                        <input type="text" class="input" placeholder="ДО" style="width: 50%;">
+                    </div>
+                </div>
+
+                <div class="kalc2-wrapoer">
+                    <h4>Условия сделки</h4>
+                    <br>
+                    <div class="button-content">
+                        <div class="button">Не первый</div>
+                        <div class="button">Не последний</div>
+                        <br><br><br>
+                        <div class="button">Только последний</div>
+                    </div>
+                </div>
+
+                <br>
+                <div class="save-wrap">
+                    <div class="save-btn">Сохранить поиск</div>
+                    <div class="reset-btn">Очистить фильтры</div>
+                </div>
+
+                <div class="map-wrap-btn">
+                    <div class="map-btn map-btn1">
+                        <span>
+                            <i class="fa-solid fa-map-location-dot"></i>
+                        </span>
+                        &nbsp;&nbsp;&nbsp;Показать на карте
+                    </div>
+                    <div class="map-btn map-btn2">
+                        <input type="submit" name="arendaResult" class="submit" value="Показать 78 248 объектов">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="registratsiya-wrap">
+        <div class="text-content">
+            <div class="title">Зарегистрируйтесь на <span class="reg-span">ЦИАН</span></div>
+            <ul class="list-content">
+                <li class="sub-title">просматривайте избранное на всех устройствах</li>
+                <li class="sub-title">сохраняйте поиск</li>
+                <li class="sub-title">добавляйте объявления</li>
+            </ul>
+            <div class="reg-btn">Зарегистрироваться</div>
+        </div>
+    </div>
+
+    <div class="mobilne-section">
+        <div class="section-content">
+            <br>
+            <div class="nabor-wrapper">
+                <div class="naber-item">
+                    <a href="#" id="reg-img">
+                        <div class="images-wrap" style="background-image: url(../images/bg-stul.jpg) ;">
+                            <div class="opacity">
+                                <div class="text">
+                                    <div class="title">Снять квартиру</div>
+                                    <div class="sub-title">34 091 предложение</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="text-wrap">
+                        <a href="#" class="navbar-link">
+                            <h3 class="sub-title">1-комнатные <span class="navbar-span">34 495</span></h3>
+                        </a>
+                        <a href="#" class="navbar-link">
+                            <h3 class="sub-title">2-комнатные <span class="navbar-span">45 410</span></h3>
+                        </a>
+                        <a href="#" class="navbar-link">
+                            <h3 class="sub-title">3-комнатные<span class="navbar-span">25 450</span></h3>
+                        </a>
+                        <a href="#" class="navbar-link">
+                            <h3 class="sub-title">Квартиры-студии <span class="navbar-span">16 100</span></h3>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="naber-item">
+                    <a href="#" id="reg-img">
+                        <div class="images-wrap" style="background-image: url(../images/bg-mebel.jpg) ;">
+                            <div class="opacity">
+                                <div class="text">
+                                    <div class="title">Снять квартиру</div>
+                                    <div class="sub-title">34 091 предложение</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="naber-item">
+                    <a href="#" id="reg-img"></a>
+                    <div class="images-wrap" style="background-color: #2B87DB ;">
+                        <div class="text">
+                            <div class="title">Снять квартиру</div>
+                            <div class="sub-title">34 091 предложение</div>
+                            <div class="img" style="background-image: url(../images/) ;"></div>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="naber-item">
+                    <a href="#" id="reg-img">
+                        <div class="images-wrap" style="background-image: url(../images/bg-stul.jpg) ;">
+                            <div class="opacity">
+                                <div class="text">
+                                    <div class="title">Снять квартиру</div>
+                                    <div class="sub-title">34 091 предложение</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="text-wrap">
+                        <a href="#" class="navbar-link">
+                            <h3 class="sub-title">1-комнатные <span class="navbar-span">34 495</span></h3>
+                        </a>
+                        <a href="#" class="navbar-link">
+                            <h3 class="sub-title">2-комнатные <span class="navbar-span">45 410</span></h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobilne-wrap">
+        <div class="mobilne-content">
+            <div class="malumot-wrap">
+                <div class="title">
+                    За недвижимостью – на Циан
+                </div>
+                <p class="malumot-text">
+                    На сайте Циан вы найдёте объекты по аренде и продаже недвижимости в Московской области. Все
+                    представленные на сайте объекты проверены нашей командой модераторов. Для удобства вы можете
+                    загрузить мобильное приложение на iPhone и Android, а также удобно искать предложения благодаря
+                    структурированному каталогу и «умному» поиску на нашем сайте. Для облегчения поиска мы реализовали
+                    систему рекомендаций похожих объявлений. Все объекты, которые Вас заинтересовали, легко найти в
+                    личном кабинете с помощью добавления в "Избранное". Проверенное жильё в Московской области находится
+                    на Циан.
+                </p>
+                <div class="malumot-open-btn">
+                    <div class="btn-show1">Показать полностью &nbsp;&nbsp;<i class="fa-solid fa-angle-right"
+                            style="transform: rotate(90deg);"></i></div>
+                    <div class="btn-show2">Свернуть &nbsp;&nbsp;<i class="fa-solid fa-angle-right"
+                            style="transform: rotate(-90deg);"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="mobilne-wrap foter-bg">
+        <div class="mobilne-content">
+            <div class="footer-wrap">
+                <div class="title">© 2023 ЦИАН ГРУПП </div>
+
+                <a href="#">
+                    <div class="link">Полная версия сайта</div>
+                </a>
+                <div class="dovnload-btn">
+                    <i class="fa-brands fa-apple"></i> <span>Скачать приложение</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-new">
+        <div class="content">
+
+            <div class="section-title">Полезные ссылки</div>
+
+            <div class="shoppe-wrapper">
+                <div class="savdo-content">
+                    <div class="savdo-block">
+                        <div class="savdo-item">
+                            <div class="gradient">
+                                <div class="title">Снять квартиру</div>
+                                <a href="#">
+                                    <div class="sub-title">
+                                        <span class="sub-link">1-комнатные</span>
+                                        <span class="sub-money">8 983</span>
+                                    </div>
+                                </a>
+
+                                <a href="#">
+                                    <div class="sub-title">
+                                        <span class="sub-link">2-комнатные</span>
+                                        <span class="sub-money">6 983</span>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="sub-title">
+                                        <span class="sub-link">3-комнатные</span>
+                                        <span class="sub-money">7 983</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="savdo-item">
+                            <a href="#" class="savdo-item-link">
+                                <div class="item-img"></div>
+                                <div class="title">Снять дом</div>
+                                <div class="sub-title">3 554 предложения</div>
+                            </a>
+                        </div>
+                        <div class="savdo-item">
+                            <a href="#" class="savdo-item-link">
+                                <div class="gradient">
+                                    <div class="title">Снять комнату</div>
+                                    <div class="sub-title">1 920 предложений</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="savdo-item">
+                            <a href="#" class="savdo-item-link">
+                                <div class="gradient">
+                                    <div class="title">Снять квартиру-студию</div>
+                                    <div class="sub-title">1 148 предложений</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="savdo-item">
+                            <a href="#" class="savdo-item-link">
+                                <div class="item-img"></div>
+                                <div class="title">Снять гараж</div>
+                                <div class="sub-title">3 817 предложений</div>
+                            </a>
+                        </div>
+                        <div class="savdo-item">
+                            <a href="#" class="savdo-item-link">
+                                <div class="item-img"></div>
+                                <div class="title">Бизнес-центры</div>
+                                <div class="sub-title">3 817 предложений</div>
+                            </a>
+                        </div>
+                        <div class="savdo-item">
+                            <a href="#" class="savdo-item-link">
+                                <div class="gradient">
+                                    <div class="title">Снять офис</div>
+                                    <div class="sub-title">32 258 предложений</div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="mijoz-content">
+                    <div class="link-wrap1">
+                        <h4 class="link-name">Квартиры и комнаты</h4>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">1-комн и 2-комн квартиры</span> <span class="link-number">22
+                                    326</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">Квартиры на длительный срок без посредников</span> <span
+                                    class="link-number">4 021</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">1-комнатные квартиры 40 м2</span> <span class="link-number">3
+                                    319</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">без комиссии</span> <span class="link-number">15 326</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">1-комн и 2-комн квартиры</span> <span class="link-number">22
+                                    326</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">1-комн и 2-комн </span> <span class="link-number">2 126</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">1-комн и 2-комн квартиры</span> <span class="link-number">22
+                                    326</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">Квартиры на длительный срок без посредников</span> <span
+                                    class="link-number">4 021</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">1-комнатные квартиры 40 м2</span> <span class="link-number">3
+                                    319</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">без комиссии</span> <span class="link-number">15 326</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">1-комн и 2-комн квартиры</span> <span class="link-number">22
+                                    326</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">1-комн и 2-комн квартиры</span> <span class="link-number">22
+                                    326</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="open-btn1">ещё <i class="fa-solid fa-chevron-right"></i></div>
+
+                    <div class="link-wrap2">
+                        <h4 class="link-name">Квартиры и комнаты</h4>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">1-комн и 2-комн квартиры</span> <span class="link-number">22
+                                    326</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">Квартиры на длительный срок без посредников</span> <span
+                                    class="link-number">4 021</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">1-комнатные квартиры 40 м2</span> <span class="link-number">3
+                                    319</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">без комиссии</span> <span class="link-number">15 326</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">1-комн и 2-комн квартиры</span> <span class="link-number">22
+                                    326</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">1-комн и 2-комн </span> <span class="link-number">2 126</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">1-комн и 2-комн квартиры</span> <span class="link-number">22
+                                    326</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">Квартиры на длительный срок без посредников</span> <span
+                                    class="link-number">4 021</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">1-комнатные квартиры 40 м2</span> <span class="link-number">3
+                                    319</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">без комиссии</span> <span class="link-number">15 326</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">1-комн и 2-комн квартиры</span> <span class="link-number">22
+                                    326</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">1-комн и 2-комн квартиры</span> <span class="link-number">22
+                                    326</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="open-btn2">ещё <i class="fa-solid fa-chevron-right"></i></div>
+
+                    <div class="link-wrap3">
+                        <h4 class="link-name">Квартиры и комнаты</h4>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">1-комн и 2-комн квартиры</span> <span class="link-number">22
+                                    326</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">Квартиры на длительный срок без посредников</span> <span
+                                    class="link-number">4 021</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">1-комнатные квартиры 40 м2</span> <span class="link-number">3
+                                    319</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">без комиссии</span> <span class="link-number">15 326</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">1-комн и 2-комн квартиры</span> <span class="link-number">22
+                                    326</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">1-комн и 2-комн </span> <span class="link-number">2 126</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">1-комн и 2-комн квартиры</span> <span class="link-number">22
+                                    326</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">Квартиры на длительный срок без посредников</span> <span
+                                    class="link-number">4 021</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">1-комнатные квартиры 40 м2</span> <span class="link-number">3
+                                    319</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">без комиссии</span> <span class="link-number">15 326</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">1-комн и 2-комн квартиры</span> <span class="link-number">22
+                                    326</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="link">
+                                <span class="link-title">1-комн и 2-комн квартиры</span> <span class="link-number">22
+                                    326</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="open-btn3">ещё <i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+            </div>
+
+            <!-- copy shoppe wrapper -->
+
+            <div class="shoppe-wrapper">
+                <div class="savdo-content">
+                    <div class="title-wrap">
+                        <div class="section-title">Популярные объявления</div>
+                        <div class="ul-title">
+                            Продажа: <span>Жилая</span> <span>Загородная</span> <span>Коммерческая</span>
+                        </div>
+                        <div class="absolut">
+                            Как сюда попасть?
+                        </div>
+                    </div>
+                    <div class="savdo-block">
+                        <div class="savdo-item">
+                            <div class="imges"
+                                style='background-image: url("https://cdn-p.cian.site/images/14/460/841/1480644136-2.jpg");'>
+                            </div>
+                            <div class="text-wrap">
+                                <div class="sum">8 541 260 ₽</div>
+                                <div class="metr">студия, 27 м</div>
+                                <div class="type">
+                                    <div></div> <span>Стрешнево</span>
+                                </div>
+                                <div class="time">&nbsp;&nbsp;&nbsp;&nbsp;2 минуты пешком</div>
+                            </div>
+                        </div>
+                        <div class="savdo-item">
+                            <div class="imges"
+                                style='background-image: url("https://cdn-p.cian.site/images/96/853/051/1503586982-2.jpg");'>
+                            </div>
+                            <div class="text-wrap">
+                                <div class="sum">13 541 260 ₽</div>
+                                <div class="metr">студия, 33 м</div>
+                                <div class="type">
+                                    <div></div> <span>Стрешнево</span>
+                                </div>
+                                <div class="time">&nbsp;&nbsp;&nbsp;&nbsp;2 минуты пешком</div>
+                            </div>
+                        </div>
+                        <div class="savdo-item">
+                            <div class="imges"
+                                style='background-image: url("https://cdn-p.cian.site/images/04/371/341/1431734066-2.jpg");'>
+                            </div>
+                            <div class="text-wrap">
+                                <div class="sum">5 541 260 ₽</div>
+                                <div class="metr">студия, 22 м</div>
+                                <div class="type">
+                                    <div style="background-color: rgb(217, 255, 0);"></div> <span>Стрешнево</span>
+                                </div>
+                                <div class="time">&nbsp;&nbsp;&nbsp;&nbsp;2 минуты пешком</div>
+                            </div>
+                        </div>
+                        <div class="savdo-item">
+                            <div class="imges"
+                                style='background-image: url("https://cdn-p.cian.site/images/57/417/441/1447147575-2.jpg");'>
+                            </div>
+                            <div class="text-wrap">
+                                <div class="sum">9 141 260 ₽</div>
+                                <div class="metr">студия, 17 м</div>
+                                <div class="type">
+                                    <div style="background-color: rgb(212, 0, 255);"></div> <span>Стрешнево</span>
+                                </div>
+                                <div class="time">&nbsp;&nbsp;&nbsp;&nbsp;2 минуты пешком</div>
+                            </div>
+                        </div>
+                        <div class="savdo-item">
+                            <div class="imges"
+                                style='background-image: url("https://cdn-p.cian.site/images/04/371/341/1431734066-2.jpg");'>
+                            </div>
+                            <div class="text-wrap">
+                                <div class="sum">5 541 260 ₽</div>
+                                <div class="metr">студия, 22 м</div>
+                                <div class="type">
+                                    <div style="background-color: rgb(217, 255, 0);"></div> <span>Стрешнево</span>
+                                </div>
+                                <div class="time">&nbsp;&nbsp;&nbsp;&nbsp;2 минуты пешком</div>
+                            </div>
+                        </div>
+                        <div class="savdo-item">
+                            <div class="imges"
+                                style='background-image: url("https://cdn-p.cian.site/images/57/417/441/1447147575-2.jpg");'>
+                            </div>
+                            <div class="text-wrap">
+                                <div class="sum">9 141 260 ₽</div>
+                                <div class="metr">студия, 17 м</div>
+                                <div class="type">
+                                    <div style="background-color: rgb(212, 0, 255);"></div> <span>Стрешнево</span>
+                                </div>
+                                <div class="time">&nbsp;&nbsp;&nbsp;&nbsp;2 минуты пешком</div>
+                            </div>
+                        </div>
+                        <div class="savdo-item">
+                            <div class="imges"
+                                style='background-image: url("https://cdn-p.cian.site/images/44/367/541/kvartira-moskva-leningradskiy-prospekt-1457634479-2.jpg");'>
+                            </div>
+                            <div class="text-wrap">
+                                <div class="sum">12 541 260 ₽</div>
+                                <div class="metr">студия, 37 м</div>
+                                <div class="type">
+                                    <div style="background-color: rgb(2, 175, 103);"></div> <span>Стрешнево</span>
+                                </div>
+                                <div class="time">&nbsp;&nbsp;&nbsp;&nbsp;2 минуты пешком</div>
+                            </div>
+                        </div>
+                        <div class="savdo-item">
+                            <div class="imges"
+                                style='background-image: url("https://cdn-p.cian.site/images/78/419/831/kvartira-moskva-ulica-efremova-1389148716-2.jpg");'>
+                            </div>
+                            <div class="text-wrap">
+                                <div class="sum">6 541 460 ₽</div>
+                                <div class="metr">студия, 47 м</div>
+                                <div class="type">
+                                    <div style="background-color: blue;"></div> <span>Стрешнево</span>
+                                </div>
+                                <div class="time">&nbsp;&nbsp;&nbsp;&nbsp;2 минуты пешком</div>
+                            </div>
+                        </div>
+                        <div class="savdo-item">
+                            <div class="imges"
+                                style='background-image: url("https://cdn-p.cian.site/images/14/460/841/1480644136-2.jpg");'>
+                            </div>
+                            <div class="text-wrap">
+                                <div class="sum">8 541 260 ₽</div>
+                                <div class="metr">студия, 27 м</div>
+                                <div class="type">
+                                    <div></div> <span>Стрешнево</span>
+                                </div>
+                                <div class="time">&nbsp;&nbsp;&nbsp;&nbsp;2 минуты пешком</div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <a href="#">
+                        <div class="all-link">Все предложения</div>
+                    </a>
+                    <br>
+                </div>
+                <div class="mijoz-content">
+                    <h3 class="title">&nbsp;&nbsp;&nbsp; Риелторы</h3>
+                    <ul class="user">
+                        <li class="user-item">
+                            <div class="img">
+                                <img src="https://www.cian.ru/avatar.axd?i=54289089&t=2&p=1" alt="">
+                            </div>
+                            <div class="text">
+                                <div class="text1">Илья Стрелецкий</div>
+                                <div class="text2">10 предложений</div>
+                            </div>
+                        </li>
+                        <li class="user-item">
+                            <div class="img">
+                                <img src="https://www.cian.ru/avatar.axd?i=54289089&t=2&p=1" alt="">
+                            </div>
+                            <div class="text">
+                                <div class="text1">Илья Стрелецкий</div>
+                                <div class="text2">10 предложений</div>
+                            </div>
+                        </li>
+                        <li class="user-item">
+                            <div class="img">
+                                <img src="https://www.cian.ru/avatar.axd?i=54289089&t=2&p=1" alt="">
+                            </div>
+                            <div class="text">
+                                <div class="text1">Илья Стрелецкий</div>
+                                <div class="text2">10 предложений</div>
+                            </div>
+                        </li>
+                        <li class="user-item">
+                            <div class="img">
+                                <img src="https://www.cian.ru/avatar.axd?i=54289089&t=2&p=1" alt="">
+                            </div>
+                            <div class="text">
+                                <div class="text1">Илья Стрелецкий</div>
+                                <div class="text2">10 предложений</div>
+                            </div>
+                        </li>
+                        <li class="user-item">
+                            <div class="img">
+                                <img src="https://www.cian.ru/avatar.axd?i=54289089&t=2&p=1" alt="">
+                            </div>
+                            <div class="text">
+                                <div class="text1">Илья Стрелецкий</div>
+                                <div class="text2">10 предложений</div>
+                            </div>
+                        </li>
+                        <li class="user-item">
+                            <div class="img">
+                                <img src="https://www.cian.ru/avatar.axd?i=54289089&t=2&p=1" alt="">
+                            </div>
+                            <div class="text">
+                                <div class="text1">Илья Стрелецкий</div>
+                                <div class="text2">10 предложений</div>
+                            </div>
+                        </li>
+                        <li class="user-item">
+                            <div class="img">
+                                <img src="https://www.cian.ru/avatar.axd?i=54289089&t=2&p=1" alt="">
+                            </div>
+                            <div class="text">
+                                <div class="text1">Илья Стрелецкий</div>
+                                <div class="text2">10 предложений</div>
+                            </div>
+                        </li>
+                        <li class="user-item">
+                            <div class="img">
+                                <img src="https://www.cian.ru/avatar.axd?i=54289089&t=2&p=1" alt="">
+                            </div>
+                            <div class="text">
+                                <div class="text1">Илья Стрелецкий</div>
+                                <div class="text2">10 предложений</div>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <a href="#">
+                        <div class="all-link">&nbsp;&nbsp;&nbsp; Все риелторы</div>
+                    </a>
+                    <br>
+                    <h3 class="title">&nbsp;&nbsp;&nbsp; Агентства</h3>
+                    <br>
+                    <ul class="user">
+                        <li class="user-item">
+                            <div class="img">
+                                <img src="https://www.cian.ru/avatar.axd?i=54289089&t=2&p=1" alt="">
+                            </div>
+                            <div class="text">
+                                <div class="text1">Илья Стрелецкий</div>
+                                <div class="text2">10 предложений</div>
+                            </div>
+                        </li>
+                        <li class="user-item">
+                            <div class="img">
+                                <img src="https://www.cian.ru/avatar.axd?i=54289089&t=2&p=1" alt="">
+                            </div>
+                            <div class="text">
+                                <div class="text1">Илья Стрелецкий</div>
+                                <div class="text2">10 предложений</div>
+                            </div>
+                        </li>
+                        <li class="user-item">
+                            <div class="img">
+                                <img src="https://www.cian.ru/avatar.axd?i=54289089&t=2&p=1" alt="">
+                            </div>
+                            <div class="text">
+                                <div class="text1">Илья Стрелецкий</div>
+                                <div class="text2">10 предложений</div>
+                            </div>
+                        </li>
+                        <li class="user-item">
+                            <div class="img">
+                                <img src="https://www.cian.ru/avatar.axd?i=54289089&t=2&p=1" alt="">
+                            </div>
+                            <div class="text">
+                                <div class="text1">Илья Стрелецкий</div>
+                                <div class="text2">10 предложений</div>
+                            </div>
+                        </li>
+                        <li class="user-item">
+                            <div class="img">
+                                <img src="https://www.cian.ru/avatar.axd?i=54289089&t=2&p=1" alt="">
+                            </div>
+                            <div class="text">
+                                <div class="text1">Илья Стрелецкий</div>
+                                <div class="text2">10 предложений</div>
+                            </div>
+                        </li>
+                        <li class="user-item">
+                            <div class="img">
+                                <img src="https://www.cian.ru/avatar.axd?i=54289089&t=2&p=1" alt="">
+                            </div>
+                            <div class="text">
+                                <div class="text1">Илья Стрелецкий</div>
+                                <div class="text2">10 предложений</div>
+                            </div>
+                        </li>
+                        <li class="user-item">
+                            <div class="img">
+                                <img src="https://www.cian.ru/avatar.axd?i=54289089&t=2&p=1" alt="">
+                            </div>
+                            <div class="text">
+                                <div class="text1">Илья Стрелецкий</div>
+                                <div class="text2">10 предложений</div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <a href="#">
+                        <div class="all-link">&nbsp;&nbsp;&nbsp; Все риелторы</div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- elon and map -->
+
+
+            <div class="new-reclama-wrap">
+                <div class="reclama-item">
+                    <div class="icon"
+                        style="background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='45'%3E%3Cpath fill='%235593CB' d='M35.103 0h-21.78a1.8 1.8 0 0 0-1.24.495L.56 11.467a1.8 1.8 0 0 0-.558 1.3v31.215c0 .496.402.898.898.898h15.165a.898.898 0 0 0 .897-.898v-1.378a.898.898 0 0 0-.897-.897H3.173V14.053H13.61a.898.898 0 0 0 .897-.897V3.173h18.32V24.49c0 .495.402.897.898.897h1.378a.898.898 0 0 0 .897-.898V.895A.897.897 0 0 0 35.103 0zm-23.77 10.88H5.798l5.537-5.69v5.69z'/%3E%3Cpath fill='%23FF9C0D' d='M33.743 34.527h-4.59v-4.59c0-.495-.4-.897-.897-.897h-1.378a.898.898 0 0 0-.898.898v4.59h-4.59c-.495 0-.896.4-.896.896v1.378c0 .496.4.898.897.898h4.59v4.59a.9.9 0 0 0 .9.897h1.378a.898.898 0 0 0 .898-.898V37.7h4.59a.898.898 0 0 0 .896-.898v-1.378c0-.495-.4-.897-.896-.897z'/%3E%3C/svg%3E');">
+
+                    </div>
+                    <div class="text-content">
+                        <div class="title">Размещайте объявления</div>
+                        <p class="sub-title">Новая форма подачи позволит быстро и удобно разместить объявление</p>
+                        <a href="#">
+                            <div class="btn">Добавить объявление</div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="reclama-item">
+                    <div class="icon">
+
+                    </div>
+                    <div class="text-content">
+                        <div class="title">Размещайте объявления</div>
+                        <p class="sub-title">Новая форма подачи позволит быстро и удобно разместить объявление</p>
+                        <a href="#">
+                            <div class="btn">Добавить объявление</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="section-new">
+        <div class="content">
+            <div class="poisk-wrapper">
+                <div class="left-wrap">
+                    <div class="title">Поиск недвижимости на Циан</div>
+                    <div class="sub-title">На сайте Циан вы найдёте объекты по аренде и продаже недвижимости в
+                        Московской области. Все представленные на сайте объекты проверены нашей командой модераторов.
+                        Для удобства вы можете загрузить мобильное приложение на iPhone и Android, а также удобно искать
+                        предложения благодаря структурированному каталогу и «умному» поиску на нашем сайте. Для
+                        облегчения поиска мы реализовали систему рекомендаций похожих объявлений. Все объекты, которые
+                        Вас заинтересовали, легко найти в личном кабинете с помощью добавления в "Избранное".
+                        Проверенное жильё в Московской области находится на Циан.</div>
+                </div>
+
+                <div class="right-wrap">
+                    <div class="title">Новое на ЦИАН</div>
+                    <a href="#">
+                        <div class="li-link">Продать 2-комнатную квартиру рядом с метро Битца</div>
+                    </a>
+                    <a href="#">
+                        <div class="li-link">Продать комнату станция Лужники (МЦК)</div>
+                    </a>
+                    <a href="#">
+                        <div class="li-link">Продать 3-комнатную квартиру без посредников</div>
+                    </a>
+                    <a href="#">
+                        <div class="li-link">Продать комнату рядом с метро Цветной бульвар</div>
+                    </a>
+                    <a href="#">
+                        <div class="li-link">Продать долю в квартире без посредников</div>
+                    </a>
+                </div>
+            </div>
+
+
+
+
+            <div class="rayon-wrap">
+                <div class="title">Квартиры у метро</div>
+                <div class="rayon-content1">
+                    <!-- hozicha bosh  -->
+                </div>
+
+
+                <div class="title">Квартиры в районе</div>
+                <div class="rayon-content2">
+                    <!-- hozicha bosh  -->
+                </div>
+
+                <div class="title">Недвижимость в Подмосковье</div>
+                <div class="rayon-content">
+                    <!-- hozicha bosh  -->
+                </div>
+
+                <div class="title">Объявления по всей России</div>
+                <div class="rayon-content">
+                    <!-- hozicha bosh  -->
+                </div>
+            </div>
+
+            <div class="baza-danni">
+                ЦИАН — база данных о недвижимости. Использование сайта означает согласие с
+                <a href="#"><span>Пользовательским соглашением</span></a> и
+                <a href="#"><span>Политикой конфиденциальности ЦИАН</span></a>
+                . Оплачивая лицензионный платеж, вы принимаете
+                <a href="#"><span>Лицензионное соглашение</span></a>.
+                <br>
+            </div>
+
+            <div class="baza-danni">
+                <div class="new-line"></div>
+                <br>
+                <a href="#">
+                    <div class="link">Справочный центр</div>
+                </a>
+                <a href="#">
+                    <div class="link">Юридические документы</div>
+                </a>
+                <a href="#">
+                    <div class="link">Тарифы и цены</div>
+                </a>
+                <a href="#">
+                    <div class="link">Помощь</div>
+                </a>
+                <a href="#">
+                    <div class="link">Реклама на сайте</div>
+                </a>
+                <a href="#">
+                    <div class="link">Программа «Работаю честно»</div>
+                </a>
+                <a href="#">
+                    <div class="link">Продвижение</div>
+                </a>
+                <a href="#">
+                    <div class="link">Аукцион</div>
+                </a>
+                <a href="#">
+                    <div class="link">Поиск на карте</div>
+                </a>
+                <a href="#">
+                    <div class="link">Реклама ЦИАН на ТВ</div>
+                </a>
+                <a href="#">
+                    <div class="link">Вакансии агентств</div>
+                </a>
+                <a href="#">
+                    <div class="link">Ипотечный калькулятор</div>
+                </a>
+                <a href="#">
+                    <div class="link">Проверка недвижимости</div>
+                </a>
+                <a href="#">
+                    <div class="link">Карта сайта</div>
+                </a>
+                <a href="#">
+                    <div class="link">Свежие объявления</div>
+                </a>
+                <a href="#">
+                    <div class="link2">Карьера в Циан</div>
+                </a>
+                <br>
+                <br>
+                <div class="new-line"></div>
+                <br>
+            </div>
+
+            <div class="end-wrapper">
+                <div class="download-wrap">
+                    <div class="left">
+                        <div class="sian-grup"></div>
+                    </div>
+                    <div class="right">
+                        Лидер онлайн-недвижимости России*
+                        <br><br>
+                        * по количеству посещений сайта cian.ru пользователями сети Интернет по данным LiveInternet в
+                        разделе «Недвижимость» по состоянию на 12 марта 2020 г.
+                    </div>
+                </div>
+                <div class="prilojeni-wrap">
+                    Мобильное приложение ЦИАН:
+                    <a href="#" class="apple"></a>
+                    <a href="#" class="gogle"></a>
+                    <a href="#" class="app"></a>
+                </div>
+            </div>
+
+            <div class="abs">
+                <div class="a">
+                    <a href="./index.html">
+                        <b>Cian.ru</b>
+                    </a>
+                    — достоверная база данных о продаже и аренде жилой, загородной и коммерческой недвижимости
+                </div>
+                <div class="b">
+                    <a href="#">
+                        <b>EMLS.ru</b>
+                    </a>
+                    — сайт недвижимости Санкт-Петербурга
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section-new end-bg">
+        <div class="content">
+            <div class="page-on">
+                <div class="title">© 2023 ЦИАН ГРУПП <a href="#"><span>Мобильная версия сайта</span></a></div>
+                <div class="yosh">16+</div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./arenda.js"></script>
+    <!-- <script src="../script.js"></script> -->
+</body>
+
+</html>

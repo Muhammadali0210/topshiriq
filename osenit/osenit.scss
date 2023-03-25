@@ -1,0 +1,361 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    a{
+        text-decoration: none;
+    }
+    ul{
+        list-style-type: none;
+    }
+    button{
+        border: none;
+    }
+    input{
+        border: none;
+        outline: none;
+    }
+    font-family: Lato, Arial,sans-serif;
+}
+
+body{
+    position: relative;
+}
+.osenit-section{
+    width: 100%;
+    $border: 1px solid red;
+    // border: $border;
+    
+    $time: all 0.3s ease-in-out;
+    .section-content{
+        width: 1100px;
+        // border: $border;
+        margin: 0 auto;
+        padding-top: 20px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+}
+
+.osenit-section.gradient{
+    display: none;
+    background: linear-gradient(180deg,#c1e8fd 20.75%,#fee0ff 57.28%,#fff);
+    .section-content{
+        .mobilne-content{
+            padding-bottom: 15px;
+            .text-content{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px 0;
+                .title{
+                    font-size: 36px;
+                    line-height: 40px;
+                    font-weight: 700;
+                    letter-spacing: -0.5px;
+                    color: #152242;
+                }
+                .images{
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                    }
+                }
+            }
+
+            .sub-title{
+                font-size: 16px;
+                line-height: 20px;
+                font-weight: 400;
+                color: #152242;
+            }
+
+            .pereytki-btn{
+                width: 100%;
+                background-color: #0468FF;
+                padding: 14px 0;
+                border-radius: 5px;
+                margin-top: 24px;
+                text-align: center;
+
+                color: #fff;
+                font-size: 16px;
+                line-height: 22px;
+                font-weight: 700;
+                cursor: pointer;
+                transition: all 0.3s;
+
+                &:hover{
+                    background-color: #0661EC;
+                }
+            }
+        }
+    }
+}
+
+.onsenit-wrapper{
+    // $border: 1px solid red;
+    width: 100%;
+    display: flex;
+    margin-top: 70px;
+    background-color: #F3F6FF;
+    border-radius: 10px;
+    padding-left: 38px;
+    position: relative;
+    .img-content{
+        position: relative;
+        height: 200px;
+        width: 50%;
+        .images{
+            position: absolute;
+            height: 250px;
+            bottom: 0;
+        }
+    }
+    .text-content{
+        width: 50%;
+        height: 200px;
+        // background-color: #f0f;
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        justify-content: center;
+        .title{
+            letter-spacing: -0.5px;
+            font-weight: 700;
+            font-size: 28px;
+            color: #152242;
+            margin-bottom: 20px;
+        }
+        .sub-title{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #152242;
+            letter-spacing: 0;
+        }
+    }
+
+    
+}
+
+
+.grafik-wrapper1,
+.grafik-wrapper2{
+    $border: 1px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    .grafik-item-left,
+    .grafik-item-right{
+        height: 332px;
+        width: 30%;
+        border-radius: 10px;
+        background-color: #F3F6FF;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .text{
+            font-size: 28px;
+            font-weight: 700;
+            color: #152242;
+            letter-spacing: -0.5px;
+            width: 100%;
+            padding: 40px 40px 0px 40px;
+        }
+        .images{
+            width: 100%;
+            height: 220px;
+            // border: $border;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+    .grafik-item-right{
+        width: 68%;
+        background-color: #E5F0FF;
+        .text{
+            text-align: center;
+        }
+        .images{
+            height: 260px;
+            padding: 10px 40px 30px; 
+        }
+    }
+}
+
+.grafik-wrapper2{
+    margin-top: 20px;
+    .grafik-item-left{
+        width: 40%;
+        background-color: #E5F0FF;
+        height: 260px;
+        .text{
+            text-align: center;
+        }
+        .images{
+            padding: 0px 10px 10px;
+            // border: 1px solid red;
+            height: 140px;
+        }
+    }
+    .grafik-item-right{
+        width: 58%;
+        height: 260px;
+        .images{
+            // width: 58%;
+            // border: 1px solid red;
+            height: 180px;
+            padding: 0px 10px 0;
+        }
+    }
+}
+
+
+.section-title2,
+.section-title3{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    color: #152242;
+    margin-top: 40px;
+}
+
+.analiz-wrapper1,
+.analiz-wrapper2{
+    width: 100%;
+    height: 192px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    background: linear-gradient(83.77deg,#ffe1ff 9.84%,#f0eeff 46.57%,#c1e8fd 90.16%),#fff;
+    ul{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        li{
+            width: 30%;
+            .analiz-item{
+                // border: 1px solid red;
+                height: 100%;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .about-item{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    .sub-title{
+                        text-align: start;
+                        width: 84%;
+                        // border: 1px solid red;
+                    }
+                }
+            }
+            .title{
+                font-weight: 600;
+                font-size: 32px;
+                line-height: 36px;
+                letter-spacing: -0.5px;
+                color: #152242;
+                text-align: center;
+                margin-bottom: 10px;    
+            }
+            .sub-title{
+                font-size: 14px;
+                line-height: 18px;
+                font-weight: 400;
+                color: #152242;
+                text-align: center;
+            }
+
+            .icon{
+                width: 40px;
+                height: 40px;
+                // border: 1px solid red;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}
+
+
+.analiz-wrapper2{
+    height: auto;
+    padding: 0;
+    background-color: transparent;
+    background-image: none;
+}
+
+
+.podrobne-metodee-btn{
+    width: 260px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5F0FF;
+    // border: 1px solid red;
+    border-radius: 5px;
+    margin-top: 30px;
+    &:hover{
+        background-color: #CFDAEB;  
+    }
+    .porobne-metodee-text{
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 700;
+        color: #0468FF;
+    }
+}
+
+.assessment-wrapper{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    margin-top: 40px;
+    position: sticky;
+    bottom: 0;
+    .assessmnet-content{
+        // border: 1px solid red;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        box-shadow: 0 -8px 16px rgba(0,0,0,.08);
+        padding: 0 20px;
+        .podrobne-metodee-btn{
+            margin: 0;
+            background-color: #0468FF;
+            cursor: pointer;
+            transition: all 0.3s;
+            &:hover{
+                border-bottom-color:#0661EC;
+            }
+            .porobne-metodee-text{
+                color: #fff;
+            }
+        }
+    }
+}

@@ -1,0 +1,162 @@
+@media only screen and (max-width: 1200px) {
+  .osenit-section .section-content {
+    width: 900px;
+    padding-top: 0px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .osenit-section.gradient {
+    display: block;
+  }
+  .osenit-section .section-content {
+    width: 600px;
+    padding-top: 0px;
+  }
+  .onsenit-wrapper {
+    flex-direction: column;
+    margin-top: 40px;
+    background-color: #ffffff;
+    border-radius: 0px;
+    padding-left: 0px;
+    position: relative;
+  }
+  .onsenit-wrapper .img-content {
+    position: relative;
+    height: 222px;
+    width: 100%;
+    background-image: linear-gradient(135deg, #FFE2FF, #A5C1FD);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .onsenit-wrapper .img-content .images {
+    position: relative;
+    height: 100%;
+    bottom: 0;
+  }
+  .onsenit-wrapper .img-content .images img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .onsenit-wrapper .text-content {
+    height: auto;
+    width: 100%;
+  }
+  .onsenit-wrapper .text-content .title {
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+  .onsenit-wrapper:nth-child(2) {
+    flex-direction: column-reverse;
+  }
+  .grafik-wrapper1,
+.grafik-wrapper2 {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+  .grafik-wrapper1 .grafik-item-left,
+.grafik-wrapper1 .grafik-item-right,
+.grafik-wrapper2 .grafik-item-left,
+.grafik-wrapper2 .grafik-item-right {
+    width: 100%;
+    height: 352px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(345.33deg, #ffe1ff -61.65%, #f0eeff 13.38%, #c1e8fd 129.6%), #fff;
+  }
+  .grafik-wrapper1 .grafik-item-left .text,
+.grafik-wrapper1 .grafik-item-right .text,
+.grafik-wrapper2 .grafik-item-left .text,
+.grafik-wrapper2 .grafik-item-right .text {
+    line-height: 26px;
+    font-size: 22px;
+    padding: 20px;
+  }
+  .grafik-wrapper1 .grafik-item-left .images,
+.grafik-wrapper1 .grafik-item-right .images,
+.grafik-wrapper2 .grafik-item-left .images,
+.grafik-wrapper2 .grafik-item-right .images {
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("//cdn.cian.site/frontend/realty-valuation-frontend/graph-screen.68697b63990ad94dfa77.svg");
+    width: 100%;
+  }
+  .grafik-wrapper1 .grafik-item-left .images img,
+.grafik-wrapper1 .grafik-item-right .images img,
+.grafik-wrapper2 .grafik-item-left .images img,
+.grafik-wrapper2 .grafik-item-right .images img {
+    display: none;
+  }
+  .grafik-wrapper1 .grafik-item-right .images,
+.grafik-wrapper2 .grafik-item-right .images {
+    background-image: url("//cdn.cian.site/frontend/realty-valuation-frontend/info-screen.b1035a73fdb769aec0f8.svg");
+  }
+  .grafik-wrapper1 .grafik-item-left {
+    display: none;
+  }
+  .grafik-wrapper1 .grafik-item-right .images {
+    background-image: url("//cdn.cian.site/frontend/realty-valuation-frontend/val-screen.d780fd52b71d1c119e95.svg");
+  }
+  .grafik-wrapper1 .grafik-item-right .images img {
+    display: none;
+  }
+  .section-title2 {
+    display: none;
+  }
+  .section-title3 {
+    font-size: 22px;
+    line-height: 28px;
+    margin-top: 40px;
+  }
+  .analiz-wrapper1,
+.analiz-wrapper2 {
+    height: auto;
+  }
+  .analiz-wrapper1 ul,
+.analiz-wrapper2 ul {
+    flex-direction: column;
+    justify-content: start;
+    row-gap: 25px;
+  }
+  .analiz-wrapper1 ul li,
+.analiz-wrapper2 ul li {
+    width: 100%;
+  }
+  .analiz-wrapper1 ul li .title,
+.analiz-wrapper2 ul li .title {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .analiz-wrapper1 ul li .sub-title,
+.analiz-wrapper2 ul li .sub-title {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .analiz-wrapper1 {
+    background-image: linear-gradient(90deg, #fff, #C1E8FD, #fff);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .osenit-section.gradient .section-content .mobilne-content .text-content {
+    padding: 20px 0;
+  }
+  .osenit-section.gradient .section-content .mobilne-content .text-content .title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .osenit-section.gradient .section-content .mobilne-content .sub-title {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .osenit-section .section-content {
+    width: 90%;
+    padding-top: 0px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .podrobne-metodee-btn {
+    width: 100%;
+  }
+}/*# sourceMappingURL=media.css.map */

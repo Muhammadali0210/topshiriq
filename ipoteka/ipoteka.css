@@ -1,0 +1,333 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Lato, Arial, sans-serif;
+}
+
+.ipoteka-section {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(180.1deg, #006cfd 40.95%, rgba(0, 108, 253, 0.3) 99.92%), #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ipoteka-section .text-wrap {
+  padding-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ipoteka-section .text-wrap .cian-img {
+  width: 252px;
+}
+.ipoteka-section .text-wrap .title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #fff;
+  margin: 24px 16px 8px;
+}
+.ipoteka-section .text-wrap .sub-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #fff;
+  margin: 0 16px 8px;
+}
+.ipoteka-section .text-wrap .ipoteka-bg {
+  width: 100%;
+  height: 548px;
+  background-image: url(../images/ipoteka-bg.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ipoteka-section .bottom-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 2;
+  max-width: 1100px;
+  margin: 500px 16px 40px;
+  align-items: center;
+  position: absolute;
+}
+.ipoteka-section .bottom-content .button-block,
+.ipoteka-section .bottom-content .button-block-blue {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  width: 375px;
+  height: 48px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #0468FF;
+  transition: all 0.3s;
+}
+.ipoteka-section .bottom-content .button-block:hover,
+.ipoteka-section .bottom-content .button-block-blue:hover {
+  background-color: #E8E9EC;
+}
+.ipoteka-section .bottom-content .button-block .shared-button,
+.ipoteka-section .bottom-content .button-block-blue .shared-button {
+  border-style: none;
+  padding: 0;
+  height: 100%;
+}
+.ipoteka-section .bottom-content .button-block .shared-button .shared-text,
+.ipoteka-section .bottom-content .button-block-blue .shared-button .shared-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 16px;
+  line-height: 22px;
+  font-style: normal;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+.ipoteka-section .bottom-content .button-number-input {
+  width: 375px;
+  border-radius: 5px;
+  overflow: hidden;
+  display: none;
+  margin-bottom: 30px;
+}
+.ipoteka-section .bottom-content .button-number-input input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 16px 0 16px 96px;
+  font-size: 20px;
+}
+.ipoteka-section .bottom-content .button-block-blue {
+  display: none;
+  background-color: #0468FF;
+  color: #fff;
+}
+.ipoteka-section .bottom-content .button-block-blue:hover {
+  background-color: #0248B2;
+}
+.ipoteka-section .bottom-content .shared-about {
+  font-size: 12px;
+  line-height: 16px;
+  color: #fff;
+  margin: 24px 16px 16px;
+}
+
+@media only screen and (max-width: 992px) {
+  .ipoteka-section {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .ipoteka-section .text-wrap .cian-img {
+    width: 176px;
+  }
+  .ipoteka-section .text-wrap .title {
+    font-size: 28px;
+    line-height: 34px;
+    margin: 24px 16px 8px;
+  }
+  .ipoteka-section .text-wrap .sub-title {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0 16px 8px;
+  }
+  .ipoteka-section .text-wrap .ipoteka-bg {
+    width: 100%;
+    height: 248px;
+    background-image: url(../images/ipoteka-mobilne.svg);
+  }
+  .ipoteka-section .bottom-content {
+    max-width: 90%;
+    margin: 550px auto 10px;
+  }
+  .ipoteka-section .bottom-content .button-block,
+.ipoteka-section .bottom-content .button-block-blue {
+    width: 100%;
+    padding: 12px;
+  }
+  .ipoteka-section .bottom-content .button-number-input {
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 10px;
+  }
+  .ipoteka-section .bottom-content .button-number-input input {
+    width: 100%;
+    padding: 10px 0;
+    padding-left: 100px;
+  }
+}
+.section-mobile {
+  width: 100%;
+  height: 160px;
+  background-color: #F4F4F4;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+.section-mobile .date {
+  margin-bottom: 20px;
+  color: #7a7a7a;
+  font-size: 18px;
+  line-height: 17px;
+  font-weight: 400;
+}
+.section-mobile .link-cian {
+  margin-bottom: 20px;
+  color: #7a7a7a;
+  font-size: 14px;
+  line-height: 17px;
+  border-bottom: 1px solid #7a7a7a;
+}
+
+@media only screen and (max-width: 992px) {
+  .section-mobile {
+    display: flex;
+  }
+}
+.registr-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.registr-section .register-content {
+  width: 344px;
+}
+.registr-section .register-content .sms-title {
+  color: #152242;
+  margin: 24px 16px;
+  font-size: 22px;
+  font-style: normal;
+  text-align: center;
+  font-weight: bold;
+  line-height: 28px;
+}
+.registr-section .register-content .pasword-sms {
+  width: 100%;
+  height: 48px;
+}
+.registr-section .register-content .pasword-sms .poasword-input {
+  border: none;
+  width: 100%;
+  height: 100%;
+  background-color: #F1F2F4;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+.registr-section .register-content .login-component {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.registr-section .register-content .login-component .login-item {
+  width: 80%;
+}
+.registr-section .register-content .login-component .login-item .text {
+  color: #152242;
+  font-size: 16px;
+  font-style: normal;
+  text-align: start;
+  font-weight: 400;
+  line-height: 24px;
+}
+.registr-section .register-content .login-component .login-item .text .login-js {
+  color: #0468FF;
+  cursor: pointer;
+}
+.registr-section .register-content .login-component .login-checkbox {
+  width: 30px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.registr-section .register-content .login-component .login-checkbox .login-chek {
+  width: 20px;
+  height: 20px;
+}
+.registr-section .register-content .button-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.registr-section .register-content .button-wrap .exit-btn,
+.registr-section .register-content .button-wrap .next-btn {
+  height: 48px;
+  width: 56px;
+  background-color: #F1F2F4;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 22px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #006cfd;
+}
+.registr-section .register-content .button-wrap .next-btn {
+  width: 78%;
+  color: #B3B3B5;
+  font-weight: bold;
+}
+.registr-section .register-content .button-wrap .next-btn.active {
+  background: #0468FF;
+  color: #fff;
+}
+.registr-section .register-content .button-wrap .next-btn.active:hover {
+  background-color: #0248B2;
+}
+.registr-section .register-content .restart-sms-btn {
+  width: 100%;
+  height: 48px;
+  background-color: #Fff;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 22px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #006cfd;
+  margin-top: 15px;
+  font-weight: 700;
+}
+.registr-section .register-content .restart-sms-btn:hover {
+  background-color: #F5F9FF;
+  transition: all 0.3s;
+}
+
+@media only screen and (max-width: 500px) {
+  .registr-section .register-content {
+    width: 90%;
+  }
+}/*# sourceMappingURL=ipoteka.css.map */

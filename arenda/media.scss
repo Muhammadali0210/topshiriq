@@ -1,0 +1,52 @@
+@media only screen and (max-width:992px){
+    .mobilne-section{
+        display: block;
+    }
+
+    .section-new{
+        .content{
+            .poisk-wrapper{
+                display: none;
+            }
+        }
+    } 
+    
+    .registratsiya-wrap{
+        display: block;
+    }
+}
+@media only screen and (max-width:768px){
+    
+}
+@media only screen and (max-width:500px){
+    .mobilne-section{
+        .section-content{
+            width: 95%;
+            .input-wrap{
+                display: flex;
+                justify-content: start;
+                margin-bottom: 14px;
+                width: 100%;
+                .type{
+                    width: 20%;
+                    min-width: 27px;
+                    font-size: 16px;
+                    text-align: center;
+                    height: 43px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .input{
+                    width: 40%;
+                }
+            }
+        }
+    }
+
+    .registratsiya-wrap{
+        background-position: 220px 85px;
+        padding: 10px 10px;
+        
+    }
+}
