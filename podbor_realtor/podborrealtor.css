@@ -254,4 +254,80 @@ body .header-btn .header-btn-text {
   font-weight: 700;
   color: #CEE3FF;
   z-index: -1;
+}
+
+.acardion-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 36px;
+}
+.acardion-wrapper .acar-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.acardion-wrapper .acar-content .acardion-item {
+  width: 100%;
+  border-bottom: 1px solid #E7E8EC;
+  height: 72px;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+.acardion-wrapper .acar-content .acardion-item .btn-content {
+  width: 100%;
+  height: 72px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.acardion-wrapper .acar-content .acardion-item .btn-content .icon {
+  transform: rotate(90deg);
+  transition: all 0.5s ease-in-out;
+  color: #0468FF;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.acardion-wrapper .acar-content .acardion-item .sub-title {
+  width: 100%;
+  padding: 6px 0 16px;
+}
+
+.apply-wrap {
+  position: relative;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 0px 40px 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-image: url(../images/realtor-apply-bgimg.png);
+  background-position: 100% 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-clip: padding-box;
+}
+.apply-wrap::after, .apply-wrap::before {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  bottom: -4px;
+  left: -4px;
+  z-index: -1;
+  border-radius: 8px;
+  content: "";
+}
+.apply-wrap::before {
+  background: linear-gradient(90deg, #ffebaf 15%, #ffdcc8 50%, #ffe1ff 70%, #006cfd);
+}
+.apply-wrap .realtor-title {
+  width: 56%;
+  margin: 0;
+}
+.apply-wrap .apply-btn-content {
+  width: 200px;
 }/*# sourceMappingURL=podborrealtor.css.map */

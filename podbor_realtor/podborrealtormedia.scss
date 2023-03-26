@@ -48,6 +48,19 @@
         }
     }
     
+    .acardion-wrapper{
+        flex-direction: column;
+        row-gap: 0;
+    }
+
+    .apply-wrap{
+        padding: 0px 30px 20px;
+        .realtor-title{
+            font-size: 18px;
+            line-height: 24px;
+            width: 66%;
+        }
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -90,6 +103,15 @@
             .works-number{
                 left: -20px;
             }
+        }
+    }
+
+    .apply-wrap{
+        height: 340px;
+        justify-content: start;
+        padding: 0 10px 15px;   
+        .realtor-title{
+            width: 100%;
         }
     }
 }

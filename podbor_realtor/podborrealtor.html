@@ -332,6 +332,141 @@
             <br><br><br>
             
             <div class="realtor-title">Часто задаваемые вопросы</div>
+
+            <div class="acardion-wrapper">
+                <div class="acar-content">
+                    <div class="acardion-item">
+                        <div class="btn-content">
+                            <div class="content-title">Можно ли отредактировать заявку?</div>
+                            <div class="icon ">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                        <p class="sub-title">
+                            Отправленную заявку отредактировать нельзя. Вместо этого вы можете подать новую заявку.
+                        </p>
+                    </div>
+
+                    <div class="acardion-item">
+                        <div class="btn-content">
+                            <div class="content-title">Сколько ждать звонка?</div>
+                            <div class="icon ">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                        <p class="sub-title">
+                            Заявка остается активной в течение 7 дней. Обычно звонки начинают поступать в первые часы после публикации. Если с вами не связались, попробуйте отправить новую заявку, указав более подробную информацию, чтобы повысить интерес со стороны риелторов.
+                        </p>
+                    </div>
+
+                    <div class="acardion-item">
+                        <div class="btn-content">
+                            <div class="content-title">Кому отправляется заявка?</div>
+                            <div class="icon ">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                        <p class="sub-title">
+                            Заявка становится доступна всем риелторам-партнерам Циан в регионе, по которому она создана. Ее может взять в работу как агенство недвижимости, так и частный риелтор, который работает в данном регионе и сегменте недвижимости.
+                        </p>
+                    </div>
+
+                    <div class="acardion-item">
+                        <div class="btn-content">
+                            <div class="content-title">Какая информация доступна риелтору?</div>
+                            <div class="icon ">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                        <p class="sub-title">
+                            Риелтору доступны все данные, которые вы указывали при заполнении заявки.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="acar-content">
+                    <div class="acardion-item">
+                        <div class="btn-content">
+                            <div class="content-title">Сколько стоит подбор?</div>
+                            <div class="icon ">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                        <p class="sub-title">
+                            Мы подбираем риелтора бесплатно. Условия работы с конкретным риелтором вы сможете обсудить напрямую.
+                        </p>
+                    </div>
+
+                    <div class="acardion-item">
+                        <div class="btn-content">
+                            <div class="content-title">Я уже разместил объявление. Надо ли оставлять заявку?</div>
+                            <div class="icon ">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                        <p class="sub-title">
+                            Заявка и объявление не зависят друг от друга. Отправьте заявку, чтобы быстрее получить помощь риелтора.
+                        </p>
+                    </div>
+
+                    <div class="acardion-item">
+                        <div class="btn-content">
+                            <div class="content-title">Сколько риелторов получит заявку?</div>
+                            <div class="icon ">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                        <p class="sub-title">
+                            Мы предоставляем контакты по вашей заявке максимум 3 риелторам. Если у вас есть опубликованное объявление с теми же контактами, звонки могут поступать по нему.
+                        </p>
+                    </div>
+
+                    <div class="acardion-item">
+                        <div class="btn-content">
+                            <div class="content-title">Можно ли отменить заявку?</div>
+                            <div class="icon ">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                        <p class="sub-title">
+                            Да. Для этого напишите нам через
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                const acardionBtnContent = document.querySelectorAll('.acardion-item .btn-content');
+                const acardionBtnContentIcon = document.querySelectorAll('.acardion-item .btn-content .icon');
+                const acardionContent = document.querySelectorAll('.acardion-item');
+
+                console.log(acardionContent.clientHeight);
+
+                for(let i=0; i<acardionContent.length; i++){
+                    acardionBtnContent[i].addEventListener('click', () => {
+                        if(acardionContent[i].clientHeight == 71){
+                            acardionContent[i].style.height = 'auto';
+                            acardionBtnContentIcon[i].style.transform = 'rotate(-90deg)';
+                        } else{
+                            acardionContent[i].style.height = '72px';
+                            acardionBtnContentIcon[i].style.transform = 'rotate(90deg)';
+                        }
+                        
+                    });
+                }
+
+            </script>
+
+            <br><br><br><br><br>
+
+            <div class="apply-wrap">
+                <div class="realtor-title">Обратитесь к риелтору-партнёру Циан по любому вопросу с недвижимостью</div>
+                <div class="apply-btn-content">
+                    <a href="#" class="header-btn">
+                        <span class="header-btn-text">Подобрать риелтора</span>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
     

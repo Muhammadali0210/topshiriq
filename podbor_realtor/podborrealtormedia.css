@@ -34,6 +34,18 @@
   .works-wrap .works-item {
     margin: 40px 0;
   }
+  .acardion-wrapper {
+    flex-direction: column;
+    row-gap: 0;
+  }
+  .apply-wrap {
+    padding: 0px 30px 20px;
+  }
+  .apply-wrap .realtor-title {
+    font-size: 18px;
+    line-height: 24px;
+    width: 66%;
+  }
 }
 @media only screen and (max-width: 992px) {
   .section .content {
@@ -62,6 +74,14 @@
   }
   .works-wrap .works-item .works-number {
     left: -20px;
+  }
+  .apply-wrap {
+    height: 340px;
+    justify-content: start;
+    padding: 0 10px 15px;
+  }
+  .apply-wrap .realtor-title {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 500px) {
