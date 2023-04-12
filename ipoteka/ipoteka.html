@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,17 +12,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
 </head>
+
 <body>
     <!-- navbar kontent -->
 
     <!--  -->
 
+
+    <a href="../index.html">
+        <h1>Cian.ru</h1>
+    </a>
+
     <div class="ipoteka-section">
         <div class="text-wrap">
-           <img src="//cdn.cian.site/finance/welcome-page-main/public/FinaceLogo.svg" alt="Циан.ипотека" class="cian-img">
-           <h1 class="title">Скидка на ипотеку</h1>
-           <p class="sub-title">Чтобы просто решиться</p>
-           <div class="ipoteka-bg"></div>
+            <img src="//cdn.cian.site/finance/welcome-page-main/public/FinaceLogo.svg" alt="Циан.ипотека"
+                class="cian-img">
+            <h1 class="title">Скидка на ипотеку</h1>
+            <p class="sub-title">Чтобы просто решиться</p>
+            <div class="ipoteka-bg"></div>
         </div>
 
         <div class="bottom-content">
@@ -37,13 +45,16 @@
                 </div>
                 <div class="button-block-blue">
                     <div class="shared-button">
-                        <input type="submit" name="telNumberSubmit" id="tyel" value="Узнайте свои ставки" class="shared-text">
+                        <input type="submit" name="telNumberSubmit" id="tyel" value="Узнайте свои ставки"
+                            class="shared-text">
                     </div>
                 </div>
             </form>
 
             <p class="shared-about">
-                Сервис Циан.Ипотека принадлежит ООО «Айриэлтор», ОГРН 1137746481190. Предложение действительно до 16 апреля 2023 г. Максимальная скидка 3,8% предоставляется при подключении платной услуги. Скидки 0,9% и 1% предоставляются бесплатно и эксклюзивно для пользователей сервиса Циан.Ипотека.
+                Сервис Циан.Ипотека принадлежит ООО «Айриэлтор», ОГРН 1137746481190. Предложение действительно
+                до 16 апреля 2023 г. Максимальная скидка 3,8% предоставляется при подключении платной услуги. Скидки
+                0,9% и 1% предоставляются бесплатно и эксклюзивно для пользователей сервиса Циан.Ипотека.
             </p>
         </div>
 
@@ -55,14 +66,14 @@
             const sharedBtnBlue = document.querySelector('.button-block-blue');
             const sharedAbout = document.querySelector('.shared-about');
 
-            sharedBtn.addEventListener('click' , ()=>{
+            sharedBtn.addEventListener('click', () => {
                 sharedBtn.style.display = 'none';
                 sharedBtnBlue.style.display = 'block';
                 sharedAbout.style.display = 'none';
                 sharedBtnInput.style.display = 'block';
             });
         </script>
-        
+
     </div>
 
 
@@ -197,4 +208,5 @@
 
 
 </body>
+
 </html>

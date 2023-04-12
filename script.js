@@ -760,7 +760,7 @@ rayonContent.innerHTML = allInformations2;
 
 //  o'rtadagi ipoteka tugmasi bosilganda boshqa oynalar yo'q bolib "ipoteka-page-section" oynasi ochiladi 
 
-const ipotekaBtn = document.querySelector('.sinov');
+const ipotekaBtn = document.querySelector('.block-btnjs-5');
 const cianSections1 = document.querySelector('.section-off1');
 const cianSections2 = document.querySelector('.section-off2');
 const cianSections3 = document.querySelector('.section-off3');

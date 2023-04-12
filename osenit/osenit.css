@@ -331,7 +331,6 @@ body {
   height: 80px;
   background-color: #fff;
   margin-top: 40px;
-  position: -webkit-sticky;
   position: sticky;
   bottom: 0;
 }

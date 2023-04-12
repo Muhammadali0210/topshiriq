@@ -713,6 +713,7 @@ body ul {
 }
 .header-section .opacity .header-content .header-block-wrap .btn-content {
   width: 100%;
+  height: 62px;
   border-radius: 7px;
   border-top-left-radius: 0;
   position: relative;
@@ -744,6 +745,7 @@ body ul {
   color: #fff;
   cursor: pointer;
   transition: all 0.25s;
+  border: none;
 }
 .header-section .opacity .header-content .header-block-wrap .btn-content .content-btn-wrap .nayti:hover {
   background-color: #055bdd;
@@ -1101,7 +1103,7 @@ body ul {
   left: 0;
   opacity: 1;
   transition: opacity 0.3s linear;
-  background: linear-gradient(180deg, hsla(0deg, 0%, 100%, 0), #fff 90%);
+  background: linear-gradient(180deg, hsla(0, 0%, 100%, 0), #fff 90%);
   height: 15px;
   content: "";
 }
@@ -1935,7 +1937,7 @@ body ul {
   text-decoration: none;
 }
 .section-new .content .page-on .title span:hover {
-  border-bottom-color: hsla(0deg, 0%, 100%, 0.3);
+  border-bottom-color: hsla(0, 0%, 100%, 0.3);
 }
 .section-new .content .page-on .yosh {
   width: 31px;
